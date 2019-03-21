@@ -1,5 +1,4 @@
 # Convert-Office-365-Groups
-Script to convert Unified Groups to Distribution Lists
 
 Convert Unified Groups to Distribution Lists [Data Loss Warning!]
 
@@ -19,5 +18,5 @@ Once you run the script you will be prompted with 2 choices:
 NOTE: I have added a 30 second sleep action in the script to give time for the Unified Groups to get deleted. If you get any errors for a few groups, it is because those groups need more time to get deleted before the distribution lists get created. You can restore those Deleted Unified Groups from the Portal and then re-run the script for those individual groups. 
 The Distribution list will use the PrimarySmtpAddress attribute of the Unified Group to get created.
 
-About the Script. (how does it work): 
+About the Script. (how does it work):
 To get a breakdown of the script and find out how the script works feel free to visit my blog Post: https://o365inside.com/uncategorized/convert-unified-groups-back-to-distribution-lists/
